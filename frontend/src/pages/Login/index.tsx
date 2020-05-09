@@ -1,9 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
+import { Container, Grid } from '@material-ui/core';
 export default function Login(): JSX.Element {
   return (
-    <div>
-      <p>teste</p>
-    </div>
+    <Container>
+      <Grid container direction="row" justify="center" alignItems="center">
+        <Grid item xs={12}>
+          <p>teste</p>
+        </Grid>
+      </Grid>
+    </Container>
   );
 }
